@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #1e272e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url(images/background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero span {
+    color: #00cec9;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #00cec9;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    padding: 80px 40px;
+    gap: 40px;
+}
+
+.about img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.skills {
+    background: #f1f2f6;
+    padding: 60px;
+    text-align: center;
+}
+
+.skill-box {
+    max-width: 400px;
+    margin: auto;
+}
+
+.bar {
+    background: #dfe4ea;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.bar span {
+    display: block;
+    height: 15px;
+    border-radius: 20px;
+}
+
+.html { width: 90%; background: #e17055; }
+.css  { width: 80%; background: #0984e3; }
+.js   { width: 70%; background: #fdcb6e; }
+
+.gallery {
+    padding: 60px;
+    text-align: center;
+}
+
+.gallery-images img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contact {
+    background: #2d3436;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact button {
+    background: #00cec9;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background: #1e272e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

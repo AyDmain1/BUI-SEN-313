@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">Starboy's DEVs</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Adeayo Adedigba</span></h1>
+            <p>Web Developer | Tech Enthusiast | Problem Solver | Software Engineer</p>
+            <button onclick="scrollToContact()">Hire Me</button>    
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <img src="image/images.png" alt="Profile Picture">
+        <div>
+            <h2>About Me</h2>
+            <p>
+                My name is Adeayo Adedigba. I am a passionate web developer who enjoys
+                creating modern and responsive websites. I believe in continuous
+                learning and using technology to create positive impact.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-box">
+            <p>HTML</p>
+            <div class="bar"><span class="html"></span></div>
+
+            <p>CSS</p>
+            <div class="bar"><span class="css"></span></div>
+
+            <p>JavaScript</p>
+            <div class="bar"><span class="js"></span></div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="image/download.png" alt="Gallery Image">
+            <img src="image/download.jpg" alt="Gallery Image">
+            <img src="image/download (1).png" alt="Gallery Image">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form onsubmit="return showAlert()">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="response"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Adeayo Adedigba | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
